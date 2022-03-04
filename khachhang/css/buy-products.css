@@ -1,0 +1,169 @@
+body{
+    background-color: rgb(212, 200, 200);
+    margin: 0;
+    padding: 0;
+}
+.topnav img{
+    padding: 0 500px;
+    width: 150px;
+    height: 80px;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #f04e23;
+    height:75px;
+  }
+  .topnav input{
+    width: 200px;
+    float:right;
+    padding: 6px;
+    border: none;
+    margin: 20px 0;
+    margin-right: 20px;
+    font-size: 14px;
+    border-radius: 5px;
+    font-family: inherit;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 28px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: grey;
+    color: white;
+  }
+.buy-pro{
+    width: 650px;
+    margin: 10px auto ;
+    background-color: white;
+}
+.info-pro{
+    display: flex;
+}
+.max-sz{
+    padding:  0 0 10px;
+    font-weight: bold;
+}
+.info-pro img{
+    margin-top: 20px;
+    width: 120px;
+    height: 120px;
+}
+.money{
+    float: right;
+    padding-left: 300px;
+}
+.cost{
+    display: flex;
+    position: relative;
+    padding-left: 20px;
+    font-size: 17px;
+
+}
+.free{
+    width:80px;
+    text-align:center;
+    height:19px;
+    color:white;
+    margin-top:15px ;
+    background-color:rgb(38, 100, 182);
+    border-radius:2px;
+}
+.money #pay, #sl{
+    /* padding-top: 15px; */
+    color:rgb(245, 19, 19) ;
+    font-weight: bold;
+    border:none;
+    width:100px;
+    font-size:19px;
+}
+.customer{
+    padding: 0 10px;
+}
+.info-cus{
+    display: flex;
+}
+#tel, #name{
+    width: 310px;
+    height: 30px;
+}
+#tel{
+    margin-right: 18px;
+}
+#email{
+    margin-top: 10px;
+    width: 621px;
+    height: 30px;
+}
+.address{
+    margin: 10px 15px;
+
+}
+#addr{
+    width: 611px;
+    height: 30px;
+    margin-bottom: 15px;
+}
+#note{
+    width: 611px;
+    height: 50px;
+}
+.pay{
+    margin-left: 15px;
+    font-size: 17px;
+
+}
+.btn{
+    width: 160px;
+    height: 37px;
+    background-color: rgb(250, 98, 10);
+    margin: 20px 230px 10px;
+    font-size: 18px;
+    color: white;
+}
+.btn:hover{
+    background-color: rgb(226, 34, 0);
+}
+.product-count {
+    margin-top: 25px; 
+  }
+.product-count .qtyminus,
+.product-count .qtyplus {
+    width: 30px;
+    height: 26px;
+    background: #212529;
+    text-align: center;
+    font-size: 19px;
+    /* line-height: 36px; */
+    color: #fff;
+    cursor: pointer;
+    
+  }
+  .product-count .qtyminus {
+    border-radius: 3px 0 0 3px; 
+    position: relative;
+    left: 5px;
+    top: 3px;
+  }
+  .product-count .qtyplus {
+    border-radius: 0 3px 3px 0; 
+    position: relative;
+    right: 5px;
+    top: 3px;
+  }
+  .product-count .qty {
+    width: 60px;
+    height: 20px;
+    text-align: center;
+  }
